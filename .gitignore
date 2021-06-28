@@ -23,7 +23,6 @@ debug/*
 !debug/sample-multiple.html
 
 # Built Files and watch cache
-dist/
 build
 
 *.zip

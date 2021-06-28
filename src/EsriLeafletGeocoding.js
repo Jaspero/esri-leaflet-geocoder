@@ -1,4 +1,5 @@
-export { version as VERSION } from '../package.json';
+import {version} from '../package.json';
+export const VERSION = version;
 
 // import tasks
 export { Geocode, geocode } from './Tasks/Geocode';

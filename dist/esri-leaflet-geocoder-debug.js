@@ -1,4 +1,4 @@
-/* esri-leaflet-geocoder - v3.0.0 - Mon Jun 28 2021 15:42:12 GMT+0200 (GMT+02:00)
+/* esri-leaflet-geocoder - v3.0.0 - Thu Jul 08 2021 09:42:32 GMT+0200 (GMT+02:00)
  * Copyright (c) 2021 Environmental Systems Research Institute, Inc.
  * Apache-2.0 */
 (function (global, factory) {
@@ -9,7 +9,7 @@
 
   var version = "3.0.0";
 
-  var WorldGeocodingServiceUrl = 'https://geocode-api.arcgis.com/arcgis/rest/services/World/GeocodeServer/';
+  var WorldGeocodingServiceUrl = 'https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/';
 
   var Geocode = esriLeaflet.Task.extend({
     path: 'findAddressCandidates',

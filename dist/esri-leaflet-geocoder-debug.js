@@ -1,5 +1,5 @@
-/* esri-leaflet-geocoder - v3.0.0 - Thu Jul 08 2021 09:42:32 GMT+0200 (GMT+02:00)
- * Copyright (c) 2021 Environmental Systems Research Institute, Inc.
+/* esri-leaflet-geocoder - v0.0.1 - Thu Jan 27 2022 20:52:55 GMT+0100 (Central European Standard Time)
+ * Copyright (c) 2022 Environmental Systems Research Institute, Inc.
  * Apache-2.0 */
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('leaflet'), require('esri-leaflet')) :
@@ -7,7 +7,7 @@
   (global = global || self, factory((global.L = global.L || {}, global.L.esri = global.L.esri || {}, global.L.esri.Geocoding = {}), global.L, global.L.esri));
 }(this, (function (exports, leaflet, esriLeaflet) { 'use strict';
 
-  var version = "3.0.0";
+  var version = "0.0.1";
 
   var WorldGeocodingServiceUrl = 'https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/';
 
